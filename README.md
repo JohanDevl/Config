@@ -22,7 +22,7 @@ The `extensions.md` file contains a complete list of recommended extensions, org
 
 1. Open Cursor IDE
 2. Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (Mac) to open the extensions panel
-3. Search and install each extension listed in `extensions.md`
+3. Search and install each extension listed in `extensions/README.md`
 
 ## ⚙️ Settings
 
@@ -39,7 +39,7 @@ The `settings.json` file contains optimized configuration for Cursor IDE. These 
 1. Open Cursor IDE
 2. Press `Ctrl+,` (Windows/Linux) or `Cmd+,` (Mac) to open settings
 3. Click on the "Open Settings (JSON)" icon in the top right
-4. Copy the contents of `settings.json` into your settings file
+4. Copy the contents of `settings/settings.json` into your settings file
 
 ## 🎨 Customization
 
