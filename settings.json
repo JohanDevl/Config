@@ -1,0 +1,37 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "files.autoSave": "onFocusChange",
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cursor.cpp.disabledLanguages": ["plaintext"],
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnPaste": true,
+  "cursor.terminal.usePreviewBox": true,
+  "cursor.cmdk.useThemedDiffBackground": true,
+  "cursor.diffs.useCharacterLevelDiffs": true,
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 6,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "CommitMono",
+  "workbench.iconTheme": "material-icon-theme"
+}
