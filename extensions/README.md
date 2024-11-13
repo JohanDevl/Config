@@ -1,4 +1,4 @@
-# VS Code Extensions
+# Cursor IDE Extensions
 
 ## JavaScript/TypeScript Development
 
