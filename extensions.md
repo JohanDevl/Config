@@ -6,7 +6,6 @@
 - **esbenp.prettier-vscode** - Code formatter
 - **sburg.vscode-javascript-booster** - JavaScript/TypeScript productivity tools
 - **yoavbls.pretty-ts-errors** - Better TypeScript error messages
-- **jacano.vscode-pnpm** - pnpm package manager support
 
 ## ServiceNow Development
 
