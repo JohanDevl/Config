@@ -1,0 +1,63 @@
+{
+  // Allows opening untrusted files without prompting
+  "security.workspace.trust.untrustedFiles": "open",
+  // Disables the welcome page when VS Code starts
+  "workbench.startupEditor": "none",
+  // Automatically saves files when focus moves away from editor
+  "files.autoSave": "onFocusChange",
+  // Disables confirmation dialog when deleting files
+  "explorer.confirmDelete": false,
+  // Sets Prettier as the default formatter for HTML files
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Enables inline suggestions (like GitHub Copilot)
+  "editor.inlineSuggest.enabled": true,
+  // Configures GitHub Copilot enablement for different file types
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  // Disables screen reader optimizations
+  "editor.accessibilitySupport": "off",
+  // Sets Prettier as the default formatter for all file types
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Automatically formats files on save
+  "editor.formatOnSave": true,
+  // Disables Cursor features for plaintext files
+  "cursor.cpp.disabledLanguages": ["plaintext"],
+  // Sets the terminal font to MesloLGS NF (commonly used with Oh My Zsh)
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  // Disables confirmation when dragging and dropping files
+  "explorer.confirmDragAndDrop": false,
+  // Automatically formats pasted content
+  "editor.formatOnPaste": true,
+  // Enables preview box in terminal for Cursor extension
+  "cursor.terminal.usePreviewBox": true,
+  // Enables themed diff background for Cursor CMD+K feature
+  "cursor.cmdk.useThemedDiffBackground": true,
+  // Enables character-level diffs in Cursor
+  "cursor.diffs.useCharacterLevelDiffs": true,
+  // Sets the color theme to GitHub Dark
+  "workbench.colorTheme": "GitHub Dark",
+  // Enables limit on number of open editors
+  "workbench.editor.limit.enabled": true,
+  // Sets maximum number of open editors to 6
+  "workbench.editor.limit.value": 6,
+  // Configures ESLint to automatically fix issues on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  // Enables TypeScript variable type hints
+  "typescript.inlayHints.variableTypes.enabled": true,
+  // Shows parameter names for all TypeScript function calls
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  // Sets tab size to 2 spaces
+  "editor.tabSize": 2,
+  // Sets editor font to CommitMono
+  "editor.fontFamily": "CommitMono",
+  // Sets the file icon theme to Material Icon Theme
+  "workbench.iconTheme": "material-icon-theme"
+}
